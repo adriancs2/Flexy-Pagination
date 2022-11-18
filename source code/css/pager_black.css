@@ -1,0 +1,33 @@
+﻿/* Credits: http://cssmenumaker.com/menu/skinny-green */
+
+.pager_black {
+    height: 35px;
+    background-color: black;
+}
+.pager_black table{
+    border-collapse: collapse;
+}
+
+.pager_black td{
+    border-bottom: 1px solid #7ab900;
+}
+
+.pager_black td:hover,
+.pager_black .active {
+    border-bottom: 4px solid #7ab900;
+}
+
+.pager_black a{
+    color: #A79787;
+    font-size: 12px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    padding: 5px 10px;
+}
+
+.pager_black .active a,
+.pager_black a:hover{
+    color: white;
+}

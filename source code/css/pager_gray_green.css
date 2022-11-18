@@ -1,0 +1,27 @@
+﻿/* Credits: http://www.dynamicdrive.com/style/csslibrary/item/rollover_text_menu/  */
+
+.pager_gray_green a {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 5px 10px; /* height of each button */
+    border-radius: 5px; /* border radius */
+    background: #ececec; /* default bg color */
+    color: #4A4A4A; /* default color */
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px; /* font settings */
+    font: bold 12px Arial; /* font settings */
+    -moz-transition: all 0.3s ease-in-out; /* Enable CSS transition between property changes */
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.pager_gray_green a:hover, .pager_gray_green .active a {
+    background: #72cb47; /* bg color of button on hover */
+    box-shadow: 0 0 4px green inset;
+    color: black; /* color of button on hover */
+}
