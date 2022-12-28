@@ -1,4 +1,4 @@
-# FlexyPager.net
+# Flexy Pager
 
 A C# class library for generating Pager for ASP.NET
 
